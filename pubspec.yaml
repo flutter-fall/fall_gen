@@ -1,0 +1,39 @@
+name: fall_gen
+description: "Fall gen - A Flutter AOP and Dependency Injection framework inspired by Spring, providing enterprise-level DI and AOP capabilities."
+version: 0.0.2
+homepage: https://github.com/flutter-fall/fall_gen
+repository: https://github.com/flutter-fall/fall_gen
+issue_tracker: https://github.com/flutter-fall/fall_gen/issues
+
+# Topics help users discover your package on pub.dev
+topics:
+  - aop
+  - dependency-injection
+  - spring
+  - framework
+
+environment:
+  sdk: '>=3.8.1 <4.0.0'
+  flutter: '>=3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+dependencies:
+  flutter:
+    sdk: flutter
+  # GetX for state management and dependency injection
+  fall_core: ^0.0.5
+  build: ^3.0.2
+  source_gen: ^3.1.0
+  glob: ^2.1.0
+  code_builder: ^4.10.1
+  analyzer:  ^7.5.5 
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  test: ^1.25.0
+  flutter_lints: ^5.0.0
+  build_runner: ^2.7.0
+
+
