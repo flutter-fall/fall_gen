@@ -34,7 +34,7 @@ echo.
 REM Run tests
 echo [STEP 2/5] Running tests...
 if exist "test" (
-    call flutter test
+    call dart test
 ) else (
     echo [WARNING] No test directory found, skipping tests
 )

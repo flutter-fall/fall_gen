@@ -27,6 +27,8 @@ dependencies:
   glob: ^2.1.0
   code_builder: ^4.10.1
   analyzer:  ^7.5.5 
+  logger: ^2.6.1
+  path: ^1.9.1
   
 dev_dependencies:
   flutter_test:
